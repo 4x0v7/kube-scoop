@@ -1,0 +1,62 @@
+on:
+  schedule:
+  - cron: '*/47 * * * *'
+env:
+  SCOOP_AUTOUPDATE_COMMITTER_EMAIL: github-actions[scoop-autoupdate-bot]@users.noreply.github.com
+name: Excavator
+jobs:
+  excavate:
+    name: Excavator
+    runs-on: windows-latest
+    steps:
+    -
+      uses: actions/checkout@main
+    -
+      name: Excavator
+      uses: shovel-org/GithubActions@main
+      env:
+        GITH_EMAIL: ${{ env.SCOOP_AUTOUPDATE_COMMITTER_EMAIL }}
+        GITHUB_TOKEN: ${{ secrets.SCOOP_AUTOUPDATE_TOKEN }}
+        SKIP_UPDATED: '1'
+    # Checkout the repo again and check if new version was just committed
+    # If Excavator just committed, it has no tag, dispatch to tagger
+    -
+      uses: actions/checkout@main
+      with:
+        ref: 'main'
+        fetch-depth: 0
+    -
+      name: Get current commit author
+      id: git_commiter
+      run: |
+        echo "::set-output name=email::$(git show -s --format='%ae' refs/heads/main)"
+    -
+      name: Get tags pointing at current commit
+      id: is_commit_tagged
+      run: |
+        echo "::set-output name=git_tag::$(git tag --points-at HEAD)"
+    -
+      uses: mukunku/tag-exists-action@v1.0.0
+      id: check_tag
+      with:
+        tag: ${{ steps.is_commit_tagged.outputs.git_tag }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    outputs:
+      git-commiter-email: ${{ steps.git_commiter.outputs.email }}
+      git-commit-is-tagged: ${{ steps.check_tag.outputs.exists }}
+
+  update-tag:
+    name: Update git tag
+    needs: excavate
+    runs-on: ubuntu-latest
+    if: |
+      needs.excavate.outputs.git-commiter-email == 'github-actions[scoop-autoupdate-bot]@users.noreply.github.com' &&
+      needs.excavate.outputs.git-commit-is-tagged == 'false'
+    steps:
+    -
+      name: Trigger Version Tagger workflow
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.SCOOP_AUTOUPDATE_TOKEN }}
+        event-type: tag-autoupdate
