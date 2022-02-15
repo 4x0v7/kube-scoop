@@ -1,0 +1,26 @@
+{
+    "version": "1.6.3",
+    "description": "Your Universal Control Plane",
+    "homepage": "https://crossplane.io",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.crossplane.io/stable/v1.6.3/bin/windows_amd64/crossplane.exe#/kubectl-crossplane.exe",
+            "hash": "ea4c2e6608e6444da0654d58ddf49bac94de5c79d8e3960fa3be32581fea013b"
+        }
+    },
+    "bin": "kubectl-crossplane.exe",
+    "checkver": {
+        "github": "https://github.com/crossplane/crossplane"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.crossplane.io/stable/v$version/bin/windows_amd64/crossplane.exe#/kubectl-crossplane.exe"
+            }
+        },
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
