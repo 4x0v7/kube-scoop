@@ -55,8 +55,13 @@ jobs:
       needs.excavate.outputs.git-commit-is-tagged == 'false'
     steps:
     -
-      name: Trigger Version Tagger workflow
-      uses: peter-evans/repository-dispatch@v1
-      with:
-        token: ${{ secrets.SCOOP_AUTOUPDATE_TOKEN }}
-        event-type: tag-autoupdate
+      name: Tagging disabled
+      id: tagger_disabled
+      run: |
+        echo "Tagger is disabled"
+    # -
+    #   name: Trigger Version Tagger workflow
+    #   uses: peter-evans/repository-dispatch@v1
+    #   with:
+    #     token: ${{ secrets.SCOOP_AUTOUPDATE_TOKEN }}
+    #     event-type: tag-autoupdate
