@@ -6,17 +6,16 @@
     "changelog": "https://github.com/kubernetes-sigs/cluster-api/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubernetes-sigs/cluster-api/releases/download/v1.1.1/clusterctl-windows-amd64.exe",
-            "pre_install": "Get-ChildItem \"$dir\" 'clusterctl-windows-amd64.exe' | Rename-Item -NewName 'clusterctl.exe'",
-            "bin": "clusterctl.exe",
+            "url": "https://github.com/kubernetes-sigs/cluster-api/releases/download/v1.1.1/clusterctl-windows-amd64.exe#/clusterctl.exe",
             "hash": "b58216094a49a76ccb882ed656cede97c67e658a6c0e011e814a73913104311c"
         }
     },
+    "bin": "clusterctl.exe",
     "checkver": {
         "github": "https://github.com/kubernetes-sigs/cluster-api"
     },
     "autoupdate": {
-        "url": "https://github.com/kubernetes-sigs/cluster-api/releases/download/v$version/clusterctl-windows-amd64.exe",
+        "url": "https://github.com/kubernetes-sigs/cluster-api/releases/download/v$version/clusterctl-windows-amd64.exe#/clusterctl.exe",
         "hash": {
             "mode": "download"
         }
