@@ -3,6 +3,7 @@
     "description": "Your Universal Control Plane",
     "homepage": "https://crossplane.io",
     "license": "Apache-2.0",
+    "changelog":  "https://github.com/crossplane/crossplane/releases/latest",
     "architecture": {
         "64bit": {
             "url": "https://releases.crossplane.io/stable/v1.6.3/bin/windows_amd64/crossplane.exe#/kubectl-crossplane.exe",
