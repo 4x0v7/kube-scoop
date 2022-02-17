@@ -1,13 +1,13 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "CLI tool that handles the lifecycle of a Cluster API management cluster",
     "homepage": "https://cluster-api.sigs.k8s.io/clusterctl/overview.html",
     "license": "Apache-2.0",
     "changelog": "https://github.com/kubernetes-sigs/cluster-api/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubernetes-sigs/cluster-api/releases/download/v1.1.1/clusterctl-windows-amd64.exe#/clusterctl.exe",
-            "hash": "b58216094a49a76ccb882ed656cede97c67e658a6c0e011e814a73913104311c"
+            "url": "https://github.com/kubernetes-sigs/cluster-api/releases/download/v1.1.2/clusterctl-windows-amd64.exe#/clusterctl.exe",
+            "hash": "2b59f9ef62c2ff3bcf9fc576d3b3c805f86e2a6378c88431c2a56b0e6719569b"
         }
     },
     "bin": "clusterctl.exe",
