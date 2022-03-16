@@ -1,0 +1,26 @@
+{
+    "version": "5.3.4",
+    "description": "The OnlyKey App is used for the initial setup and configuration of OnlyKey",
+    "homepage": "https://github.com/trustcrypto/OnlyKey-App",
+    "license": "https://github.com/trustcrypto/OnlyKey-App/blob/master/LICENSE.txt",
+    "changelog": "https://github.com/trustcrypto/OnlyKey-App/releases/latest",
+    "url": "https://github.com/trustcrypto/OnlyKey-App/releases/download/v5.3.4/OnlyKey_5.3.4.exe#/dl.7z",
+    "hash": "d221f4199be048ce5acf4ffc960b0ca60ff8846242a59f61c1a964d356244194",
+    "shortcuts": [
+        [
+            "nw.exe",
+            "OnlyKey",
+            "",
+            "icon.ico"
+        ]
+    ],
+    "bin": "nw.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/trustcrypto/OnlyKey-App/releases/download/v$version/OnlyKey_$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://github.com/trustcrypto/OnlyKey-App/releases/tag/v$version",
+            "regex": "$basename[<>\\/\\w\\n]+SHA256 - ($sha256)"
+        }
+    }
+}
