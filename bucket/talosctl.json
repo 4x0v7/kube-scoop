@@ -11,7 +11,9 @@
         }
     },
     "bin": "talosctl.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/siderolabs/talos"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
