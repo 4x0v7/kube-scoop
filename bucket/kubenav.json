@@ -6,7 +6,7 @@
     "changelog":  "https://github.com/kubenav/kubenav/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubenav/kubenav/releases/download/3.3.0/kubenav-windows-amd64.zip#/kubenav.exe",
+            "url": "https://github.com/kubenav/kubenav/releases/download/3.3.0/kubenav-windows-amd64.zip",
             "hash": "f8212813af16f363538b097758ce8724b7c6efd354433286afc4c30deec74156"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kubenav/kubenav/releases/download/$version/kubenav-windows-amd64.zip#/kubenav.exe"
+                "url": "https://github.com/kubenav/kubenav/releases/download/$version/kubenav-windows-amd64.zip"
             }
         },
         "hash": {
