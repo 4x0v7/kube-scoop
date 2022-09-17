@@ -1,13 +1,13 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.2",
     "description": "talosctl is a CLI tool which interfaces with the Talos API in an easy manner.",
     "homepage": "https://www.talos.dev",
     "license": "MPL-2.0",
     "changelog": "https://github.com/siderolabs/talos/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/siderolabs/talos/releases/download/v1.2.0/talosctl-windows-amd64.exe#/talosctl.exe",
-            "hash": "sha512:2baf12deb3105f83a4a3019f1071bbc48eb856d52410d62582f77edc35515ee3da609aa86a1e87668fea8501b1649d1961b0708ff98880e3c8dbe36b06b547cb"
+            "url": "https://github.com/siderolabs/talos/releases/download/v1.2.2/talosctl-windows-amd64.exe#/talosctl.exe",
+            "hash": "sha512:8cb2eb64ff5e5aa8fd49948f334ea69e7ea01701f7d78e75574509d22fdfb9ed8abf85ac1174777aa12e853a9f07cc211b6d7ab2d92bc4fd6e4a4e7165ec1b4b"
         }
     },
     "bin": "talosctl.exe",
