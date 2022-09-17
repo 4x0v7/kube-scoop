@@ -3,7 +3,7 @@
     "description": "Free Open Source Enterprise Grade RPA",
     "homepage": "https://app.openiap.io",
     "license": "MPL-2.0",
-    "changelog": "https://github.com/open-rpa/openrpa/releases/releases/latest",
+    "changelog": "https://github.com/open-rpa/openrpa/releases/latest",
     "architecture": {
         "64bit": {
             "url": "https://github.com/open-rpa/openrpa/releases/download/1.4.39/OpenRPA.msi",
