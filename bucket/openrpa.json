@@ -1,14 +1,14 @@
 {
-    "version": "1.4.39",
+    "version": "1.4.40",
     "description": "Free Open Source Enterprise Grade RPA",
     "homepage": "https://app.openiap.io",
     "license": "MPL-2.0",
     "changelog": "https://github.com/open-rpa/openrpa/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/open-rpa/openrpa/releases/download/1.4.39/OpenRPA.msi",
+            "url": "https://github.com/open-rpa/openrpa/releases/download/1.4.40/OpenRPA.msi",
             "extract_dir": "OpenRPA",
-            "hash": "4e74626b6627fc81668d01da54225b3de2e0759f632f5c58a2bdc4113d52cfbd"
+            "hash": "274dba7576179b9c24b1f7c0c625d1a2187c658a6e942e235e4ff5713baa6363"
         }
     },
     "bin": "OpenRPA.exe",
