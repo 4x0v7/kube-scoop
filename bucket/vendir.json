@@ -1,13 +1,13 @@
 {
-    "version": "0.32.0",
+    "version": "0.30.0",
     "description": "Declaratively state a directory's contents",
     "homepage": "https://carvel.dev/vendir/",
     "license": "Apache-2.0",
     "notes": "See https://carvel.dev/vendir/#examples for some examples",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/carvel-vendir/releases/download/v0.32.0/vendir-windows-amd64.exe#/vendir.exe",
-            "hash": "17fce3db87a63802044132b819f025bbf898ad9ceb3f840342ed40767dbc286c"
+            "url": "https://github.com/vmware-tanzu/carvel-vendir/releases/download/v0.30.0/vendir-windows-amd64.exe#/vendir.exe",
+            "hash": "514a9bfbc2e68e9054fe2f430d1949b90ccf018679f89d6d46417fdd395f6f94"
         }
     },
     "bin": "vendir.exe",
