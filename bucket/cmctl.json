@@ -1,13 +1,13 @@
 {
-    "version": "1.10.0",
+    "version": "1.10.1",
     "description": "cmctl is a CLI tool that can help you to manage cert-manager resources inside your cluster.",
     "homepage": "https://cert-manager.io/docs/usage/cmctl",
     "license": "Apache-2.0",
     "changelog": "https://github.com/cert-manager/cert-manager/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.10.0/cmctl-windows-amd64.tar.gz",
-            "hash": "ce5f49c69f117c3b0ad6723775fdc69926799713ef604ed6c47a83dc11f4193a"
+            "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.10.1/cmctl-windows-amd64.tar.gz",
+            "hash": "ef46fb8bab2ad0191ca5e73b29085325ac4e199e5be06ec2ff8939973e4b1446"
         }
     },
     "bin": "cmctl.exe",
