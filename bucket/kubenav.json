@@ -10,7 +10,7 @@
             "hash": "b584eaf28d9f9deedbc249b4350df6aa12499c6b80aa24c033028af1755ffa0e"
         }
     },
-    "bin": "kubenav.exe",
+    "bin": "kubenav/kubenav.exe",
     "checkver": {
         "github": "https://github.com/kubenav/kubenav"
     },
