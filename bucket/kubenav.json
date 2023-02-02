@@ -11,6 +11,14 @@
         }
     },
     "bin": "kubenav/kubenav.exe",
+    "shortcuts": [
+        [
+            "kubenav/kubenav.exe",
+            "kubenav",
+            "",
+            "kubenav/kubenav.exe"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/kubenav/kubenav"
     },
