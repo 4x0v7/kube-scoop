@@ -1,10 +1,10 @@
 {
-    "version": "1.27.64",
+    "version": "1.27.65",
     "license": "Apache-2.0",
     "homepage": "https://aws.amazon.com/cli/",
     "description": "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.",
-    "url": "https://s3.amazonaws.com/aws-cli/AWSCLI64PY3-1.27.64.msi",
-    "hash": "8e5e1027955061a98f5045093630707a93ca86604454a58bb48470a0899ebdac",
+    "url": "https://s3.amazonaws.com/aws-cli/AWSCLI64PY3-1.27.65.msi",
+    "hash": "4c3a964c52bda089ba3c3fce91a43d494c623dfde1de63c07a59e3bd485360e5",
     "extract_dir": "Amazon/AWSCLI",
     "bin": [
         [
