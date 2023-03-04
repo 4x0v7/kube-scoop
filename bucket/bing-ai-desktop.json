@@ -3,7 +3,7 @@
     "description": "Bing AI Desktop App (Mac, Windows and Linux)",
     "homepage": "https://github.com/bangundwir/Bing-AI-Desktop",
     "license": {
-        "identifier": "Apache-2.0"
+        "identifier": "CC0-1.0"
     },
     "architecture": {
         "64bit": {
