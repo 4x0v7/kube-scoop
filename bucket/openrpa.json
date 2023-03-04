@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://github.com/open-rpa/openrpa/releases/download/1.4.51/OpenRPA.msi",
             "extract_dir": "OpenRPA",
-            "hash": "19508f0be219832134088675d4c08a81f0ccffcf922e1c3e9ae38d2b0df3839d"
+            "hash": "8a025818cee2ea7f79cd7cd63794172bd8b282a57cfd1f92ed9a1e9c16bec946"
         }
     },
     "bin": "OpenRPA.exe",
