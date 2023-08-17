@@ -1,6 +1,8 @@
 on:
   schedule:
   - cron: '*/47 * * * *'
+  workflow_dispatch:
+
 env:
   SCOOP_AUTOUPDATE_COMMITTER_EMAIL: github-actions[scoop-autoupdate-bot]@users.noreply.github.com
 name: Excavator
