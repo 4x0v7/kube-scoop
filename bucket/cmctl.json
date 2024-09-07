@@ -6,7 +6,7 @@
     "changelog": "https://github.com/cert-manager/cmctl/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cert-manager/cmctl/releases/download/v2.1.0/cmctl_windows_amd64.exe",
+            "url": "https://github.com/cert-manager/cmctl/releases/download/v2.1.0/cmctl_windows_amd64.exe#/cmctl.exe",
             "hash": "27aeaa6bb2bd68612715241791bc7af055f41f018226488cb5d0e8d668d8930d"
         }
     },
@@ -17,10 +17,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cert-manager/cmctl/releases/download/v$version/cmctl_windows_amd64.exe"
+                "url": "https://github.com/cert-manager/cmctl/releases/download/v$version/cmctl_windows_amd64.exe#/cmctl.exe"
             },
             "arm64": {
-                "url": "https://github.com/cert-manager/cmctl/releases/download/v$version/cmctl_windows_arm64.exe"
+                "url": "https://github.com/cert-manager/cmctl/releases/download/v$version/cmctl_windows_arm64.exe#/cmctl.exe"
             }
         },
         "hash": {
