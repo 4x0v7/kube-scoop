@@ -1,14 +1,14 @@
 {
-    "version": "0.6.3",
+    "version": "0.6.6",
     "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
     "homepage": "https://d2lang.com",
     "license": "MPL-2.0",
     "changelog": "https://github.com/terrastruct/d2/releases/latest",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/terrastruct/d2/releases/download/v0.6.3/d2-v0.6.3-windows-amd64.tar.gz",
-            "hash": "9d0e6d79bdb2deca6ed98e4f7f2e0f0289580e24f1ad3a26194263194aa4a741",
-            "extract_dir": "d2-v0.6.3"
+            "url": "https://github.com/terrastruct/d2/releases/download/v0.6.6/d2-v0.6.6-windows-amd64.tar.gz",
+            "hash": "583affaa1385baa9287269bd871c1a808eac4b034a38cf42a3c75816995c0e40",
+            "extract_dir": "d2-v0.6.6"
         }
     },
     "bin": "bin\\d2.exe",

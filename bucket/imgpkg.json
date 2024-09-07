@@ -1,12 +1,12 @@
 {
-    "version": "0.39.0",
+    "version": "0.43.1",
     "description": "Package, distribute, and relocate your Kubernetes configuration and dependent OCI images as one OCI artifact: a bundle.",
     "homepage": "https://carvel.dev/imgpkg/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/carvel-dev/imgpkg/releases/download/v0.39.0/imgpkg-windows-amd64.exe#/imgpkg.exe",
-            "hash": "b2e38dc24985451633b76151c8d9ef300944fe73ca18ca28d0ae74a756f2f2eb"
+            "url": "https://github.com/carvel-dev/imgpkg/releases/download/v0.43.1/imgpkg-windows-amd64.exe#/imgpkg.exe",
+            "hash": "649eda706a172b520307c2189ee04bdc0d2b255b9b076482873ddaa2120afc18"
         }
     },
     "bin": "imgpkg.exe",
