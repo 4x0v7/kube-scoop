@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: '*/47 * * * *'
+  - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
   workflow_dispatch:
 
 env:
